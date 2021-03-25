@@ -27,7 +27,7 @@ registerForm.addEventListener("submit", (e) => {
     localStorage.setItem("users", JSON.stringify(users));
     setTimeout(() => {
       alert("Thank you for Registering");
-      location.href = "login.html";
+      location.href = "Login/index.html";
     }, 500);
   }
   registerForm.reset();
