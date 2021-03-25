@@ -21,12 +21,12 @@ loginForm.addEventListener("submit", (e) => {
       User.getUsedIdByEmailInput(emailInput) === user.id &&
       user.accountType === "1"
     ) {
-      window.location = "../views/dailyUser.html";
+      window.location = "./dailyUser/index.html";
     } else if (
       User.getUsedIdByEmailInput(emailInput) === user.id &&
       user.accountType === "2"
     ) {
-      window.location = "../views/admin.html";
+      window.location = "./admin/index.html";
     }
   }
 
