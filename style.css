@@ -1,0 +1,9 @@
+body {
+  background-color: pink;
+  width: 100vw;
+  height: 100vh;
+}
+
+#registerForm {
+  color: lightgoldenrodyellow;
+}
