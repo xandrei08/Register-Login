@@ -1,5 +1,5 @@
-import { users } from "../models/main.js";
-import User from "../models/users.js";
+import { users } from "./main.js";
+import User from "./users.js";
 
 let loginForm = document.querySelector("#loginForm");
 let usserLoggedIn;
@@ -21,12 +21,12 @@ loginForm.addEventListener("submit", (e) => {
       User.getUsedIdByEmailInput(emailInput) === user.id &&
       user.accountType === "1"
     ) {
-      window.location = "dailyUser/index.html";
+      window.location = "../dailyUser/index.html";
     } else if (
       User.getUsedIdByEmailInput(emailInput) === user.id &&
       user.accountType === "2"
     ) {
-      window.location = "admin/index.html";
+      window.location = "../admin/index.html";
     }
   }
 
