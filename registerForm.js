@@ -1,5 +1,5 @@
-import { users } from "main.js";
-import User from "users.js";
+import { users } from "./main.js";
+import User from "./users.js";
 
 let registerForm = document.querySelector("#registerForm");
 
